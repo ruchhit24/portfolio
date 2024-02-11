@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-20 bg-black text-white">
       <div className="flex justify-between w-full h-20">
-        <h2 className="font-headingFont text-6xl p-4 px-6">Ruchit.</h2>
+        <h2 className="font-headingFont text-5xl md:text-6xl p-4 px-6">Ruchit.</h2>
         <ul className="hidden md:flex pt-6 gap-8 text-lg pr-6">
           {list.map((compo) => (
             <li key={compo.id} className="cursor-pointer text-gray-400 hover:text-white hover:scale-105 duration-200 ">
