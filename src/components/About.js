@@ -1,28 +1,39 @@
 import React from "react";
-import about from "../assets/images/about.jpg"
+import about from "../assets/images/about.jpg";
 const About = () => {
   return (
-    <div className="w-full h-screen bg-gradient-to-b from-gray-500 via-gray-800 to-black text-white">
-      <div className=" max-w-screen-lg h-full mx-auto flex ">
-        <div>
+    <div
+      name="about"
+      className="w-full h-screen bg-gradient-to-b from-gray-500 via-gray-800 to-black text-white pt-36"
+    >
+      <div className=" max-w-screen-lg h-full mx-auto flex justify-evenly ">
+        <div className="w-[50%]">
           <h2 className="text-6xl font-semibold pb-6">About Me</h2>
-          <p className="text-xl w-3/4">
-            It’s now been 3 years since I started programming. I have worked for
-            three start-ups in Korea and have developed a few projects as a
-            freelancer. I am moving to Shanghai in a few weeks. I love software
-            development and recommend this field to all of my friends who are
-            interested in finding other opportunities in their life.
+          <p className="text-xl  text-gray-300">
+            As a Full Stack Developer, I possess an impressive arsenal of skills
+            in React.js,Redux Tailwind CSS, JavaScript, Node.js, Express.js,
+            Firebase, HTML, CSS, Styled Component and Material UI. I have
+            developed multiple projects which helped me to enhance my skills.
+            Yes, having your strong base really helps and hence I am open to
+            adapting to whichever framework is required. I believe Project Based
+            Learning is the best approach to learn anything. Hence, I've got
+            projects in all the different technologies that I've learned over
+            time.
           </p>
           <br />
-          <p className="text-xl w-3/4">
-            I will share my experiences in Shanghai. I also want to write how I
-            became a full-stack developer in a relatively short period of time
-            by myself, as well as explain my technical interest in software
-            development.
+          <p className="text-xl text-gray-300">
+            By the way, when I'm not coding, you'll find me reading non-fiction,
+            or watching UFC, or playing chess :)
           </p>
         </div>
         <div>
-          <img src={about} alt="about photo" width={1200} height={800} className="rounded-xl pt-4"/>
+          <img
+            src={about}
+            alt="about photo"
+            width={250}
+            height={250}
+            className="rounded-2xl pt-4"
+          />
         </div>
       </div>
     </div>

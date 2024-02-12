@@ -2,7 +2,7 @@ import React from "react";
 import contact from "../assets/images/contact.jpg";
 const Contact = () => {
   return (
-    <div className="w-full h-screen bg-gradient-to-b from-gray-900 to-black text-white">
+    <div name='contact' className="w-full h-screen bg-gradient-to-b from-gray-900 to-black text-white pt-36">
       <div className="max-w-screen-lg h-screen mx-auto flex justify-evenly">
         <div>
           <div>

@@ -1,34 +1,35 @@
 import React, { useState } from "react";
 import { FaBars, FaBeer, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 const Navbar = () => {
     const[toggle,setToggle] = useState(false);
   const list = [
     {
       id: 1,
-      link: "Home",
+      link: "home",
     },
     {
       id: 2,
-      link: "About",
+      link: "about",
     },
 
     {
       id: 3,
-      link: "Portfolio",
+      link: "portfolio",
     },
     {
       id: 4,
-      link: "Contact",
+      link: "contact",
     },
   ];
   return (
-    <div className="w-full h-20 md:h-40 bg-black text-white">
-      <div className="flex justify-between w-full h-40">
-        <h2 className="font-headingFont hidden md:block text-5xl md:text-6xl p-4 px-6">Ruchit Gule</h2>
+    <div className="w-full h-20 md:h-24 bg-black text-white fixed">
+      <div className="flex justify-between w-full h-20">
+        <h2 className="font-headingFont hidden md:block text-5xl md:text-6xl p-4 px-6 cursor-pointer">Ruchit Gule</h2>
         <ul className="hidden md:flex pt-6 gap-8 text-2xl pr-6">
           {list.map((compo) => (
             <li key={compo.id} className="cursor-pointer text-gray-400 hover:text-white hover:scale-105 duration-200 font-semibold">
-              {compo.link}
+              <Link to={compo.link} smooth duration={1000}>{compo.link}</Link>
             </li>
           ))}
         </ul>
