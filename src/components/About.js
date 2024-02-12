@@ -29,7 +29,7 @@ const About = () => {
         <div>
           <img
             src={about}
-            alt="about photo"
+            alt="about"
             width={250}
             height={250}
             className="rounded-2xl pt-4"

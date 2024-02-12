@@ -16,7 +16,7 @@ Indore, Madhya Pradesh. My interests range from back-side, front-end, system man
           </Link>
         </div>
         <div className="mt-4">
-        <img src={profile} alt="profile image" width={400} height={400}
+        <img src={profile} alt="jj" width={400} height={400}
             className="rounded-full"
         />
         </div>
