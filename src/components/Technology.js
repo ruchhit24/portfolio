@@ -34,11 +34,11 @@ const Technology = () => {
     },
   ];
   return (
-    <div className="w-full h-screen bg-gradient-to-b from-black to-gray-900 text-white">
+    <div className="w-full md:h-screen bg-gradient-to-b from-black to-gray-900 text-white">
       <div className="max-w-screen-lg h-sreen mx-auto">
         <div>
-          <p className="text-6xl font-semibold">Technology Known</p>
-          <p className="text-xl pt-4">
+          <p className="text-4xl p-2 pt-10 md:text-6xl font-semibold">Technology Known</p>
+          <p className="p-2 text-xl pt-4">
             These are the Technologies I have Worked With.
           </p>
         </div>

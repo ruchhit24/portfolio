@@ -2,13 +2,13 @@ import React from 'react'
 import netflix from "../assets/images/netflix.png"
 const Projects = () => {
   return (
-    <div name='portfolio' className='w-full h-screen bg-gradient-to-b from bg-gray-900 via-gray-800 to-black text-white pt-36'>
-        <div className='max-w-screen-lg h-screen mx-auto'>
+    <div name='portfolio' className='w-full h-screen bg-gradient-to-b from bg-gray-900 via-gray-800 to-black text-white pt-20 md:pt-36'>
+        <div className='max-w-screen-lg h-screen mx-auto p-2'>
             <div>
-                <p className='text-6xl font-semibold'>Portfolio</p>
+                <p className='text-4xl md:text-6xl font-semibold'>Portfolio</p>
                 <p className='text-xl pt-6'>Check out some of my work here</p>
             </div>
-            <div className='grid grid-cols-3 gap-10 pt-10'>
+            <div className='  grid grid-cols-1 md:grid-cols-3 gap-10 pt-10 '>
             <div>
                 <img src='https://mir-s3-cdn-cf.behance.net/project_modules/fs/c4965b85606305.5d80fd667a6a2.png' alt='bfb' height={200} width={200} className='w-fit rounded-2xl cursor-pointer hover:scale-105 duration-500'></img>
                 <div className='flex justify-evenly'>

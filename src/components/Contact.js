@@ -2,11 +2,11 @@ import React from "react";
 import contact from "../assets/images/contact.jpg";
 const Contact = () => {
   return (
-    <div name='contact' className="w-full h-screen bg-gradient-to-b from-gray-900 to-black text-white pt-36">
-      <div className="max-w-screen-lg h-screen mx-auto flex justify-evenly">
+    <div name='contact' className="w-full md:h-screen bg-gradient-to-b from-gray-900 to-black text-white pt-72 md:pt-0">
+      <div className="max-w-screen-lg h-full mx-auto flex justify-evenly pt-28">
         <div>
-          <div>
-            <p className="font-semibold text-6xl">Contact Me</p>
+          <div className="p-2">
+            <p className="font-semibold text-4xl md:text-6xl">Contact Me</p>
             <p className="text-xl pt-6">
               Submit the below form to get in touch with me
             </p>
@@ -36,7 +36,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className="pt-18 ml-24">
+        <div className="pt-18 ml-24 hidden md:block">
             <img src={contact} alt="fg" width={400} height={400} className="rounded-full" />
         </div>
       </div>
