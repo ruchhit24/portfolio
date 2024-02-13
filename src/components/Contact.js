@@ -3,7 +3,7 @@ import contact from "../assets/images/contact.jpg";
 const Contact = () => {
   return (
     <div name='contact' className="w-full md:h-screen bg-gradient-to-b from-gray-900 to-black text-white pt-72 md:pt-0">
-      <div className="max-w-screen-lg h-full mx-auto flex justify-evenly pt-28">
+      <div className="max-w-screen-lg h-full mx-auto flex justify-evenly pt-56 md:pt-28">
         <div>
           <div className="p-2">
             <p className="font-semibold text-4xl md:text-6xl">Contact Me</p>

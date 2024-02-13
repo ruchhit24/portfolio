@@ -42,7 +42,7 @@ const Navbar = () => {
                 <ul className="w-full h-screen bg-gradient-to-b from-black to-gray-500 flex flex-col justify-center items-center absolute top-0 left-0">
                     {list.map((compo)=>(
                         <li key={compo.id} className="cursor-pointer text-gray-400 hover:text-white hover:scale-105 duration-200 py-4 text-2xl">
-              {compo.link}
+                        <Link to={compo.link} smooth duration={1000} onClick={()=>setToggle(!toggle)}>{compo.link}</Link>
             </li>     
                     ))}
                 </ul>
